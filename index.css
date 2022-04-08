@@ -1,0 +1,239 @@
+body{
+    margin: 0%;
+}
+.body{
+    width: 100%;
+    height: 650px;
+    background: rgb(249, 249, 250);
+}
+.left-body{
+    width: 50%;
+    float: left;
+    height: 650px;
+}
+.instabg{
+    height: 635px;
+    width: 469px;
+    margin-top: 32px;
+    margin-left: 332px;
+}
+ 
+.slider{
+    height: 540px;
+    width: 250px;
+    position: absolute;
+    top: 56px;
+    left: 490px;
+    background: url(insta.png);
+    animation: 20s infinite;
+    animation-name: anim;
+}
+@keyframes anim{
+    25%{
+        background: url(insta2.png);
+    }
+    50%{
+        background: url(insta3.png);
+    }
+    75%{
+        background: url(insta4.png);
+    }
+    100%{
+        background: url(insta.png);
+    }
+}
+.right-body{
+    width: 50%;
+    float: left;
+    
+}
+.insta-font{
+    height: 58px;
+    width: 196px;
+    margin-left: 70px;
+    margin-top: 25px;
+
+}
+.form-div{
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: #fff;
+    height: 382px;
+    width: 345px;
+    margin-left: 26px;
+    margin-top: 50px;
+    border: solid 1px rgb(234, 230, 230);
+   
+}
+.text-box1{
+    height: 35px;
+    width: 260px;
+    margin-left: 40px;
+    background: rgb(249, 249, 250) ;
+    color: rgb(118, 118, 118);
+    border: solid 1px rgb(234, 230, 230);
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.text-box2{
+    height: 35px;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 6px;
+    background: rgb(249, 249, 250) ;
+    color: rgb(118, 118, 118);
+    border: solid 1px rgb(214, 211, 211);
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.btn{
+    background: rgba(0,149,246,.3);
+    height: 30px;
+    width: 270px;
+    margin-top: 13px;
+    margin-left: 41px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.line1{
+    border-bottom: 1px solid #dddfe2;
+    height: 21px;
+    margin-bottom: -1px;
+    width: 114px;
+    margin-left: 40px;
+}
+
+.line2{
+    border-bottom: 1px solid #dddfe2;
+    height: 21px;
+    margin-bottom: 8px;
+    width: 114px;
+    margin-left: 197px;
+    margin-top: -30px;
+}
+.or{
+    margin-top: -10px;
+    margin-left: 167px;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: bold;
+}
+.fbimg{
+    width: 17px;
+    height: 20px;
+    margin-left: 89px;
+    margin-top: 25px;
+}
+.a-fb{
+    color: #385185;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.forgot-div{
+    margin-top: 20px;
+}
+.forgot{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 120px;
+    color: #385185;
+}
+.footer-form{
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: #fff;
+    height: 60px;
+    width: 345px;
+    margin-left: 26px;
+    margin-top: 10px;
+    border: solid 1px rgb(234, 230, 230);
+    float: left;
+}
+.p-class{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-left: 75px;
+    float: left;
+    margin-top: 19px;
+}
+.signup{
+    text-decoration: none;
+    color: #0095f6;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-top: -32px;
+    margin-left: 229px;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+}
+.get-app{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-top: 92px;
+    margin-left: 159px;
+}
+.appicon{
+    height: 40px;
+    width: 137px;
+   margin-top: 5px;
+   
+}
+.icons{
+    margin-left: 57px;
+}
+.footer{
+    width: 100%;
+    height: 165px;
+    background: rgb(249, 249, 250);
+    float: left;
+}
+.link1{
+    width: 800px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 435px;
+    margin-top: 25px;
+}
+.meta-class{
+    text-decoration: none;
+    color: #8e9091;
+    font-size: 12px;
+    padding: 5px;
+}
+.link2{
+    width: 800px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 580px;
+    margin-top: 5px;
+}
+.link3{
+    width: 800px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 580px;
+    margin-top: 9px;
+}
+.select{
+    color: #8e9091;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    background: rgb(249, 249, 250) ;
+    margin-left: 35px;
+}
+.copyright{
+    margin-left: 720px;
+    margin-top: -38px;
+    float: left;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
